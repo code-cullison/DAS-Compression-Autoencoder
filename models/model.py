@@ -9,6 +9,8 @@ https://github.com/tensorflow/compression
 quite similar to the original model
 
 Authors: Haipeng Li, Thomas Cullison, Hassan Almomin
+
+(Modified for SEP report)
 '''
 
 import tensorflow as tf
