@@ -1,13 +1,17 @@
-## CS230 Project
-### Convolutional Autoencoder for Compressing Distributed Acoustic Sensing Data from Urban Environments
+### Started as class project for CS230 at Stanford Univeristy, Spring 2023.
+### This is a fork of the original.
+
+# Convolutional Autoencoder for Compressing Distributed Acoustic Sensing Data from Urban Environments
 
 The Autoencoder model is based on Lossy Data Compression from Tensorflow's official tutorial: https://www.tensorflow.org/tutorials/generative/data_compression
 
 ## Project Description
-This project focuses on applying the autoencoder convolutional neural network to compress vast amounts of Distributed Acoustic Sensing (DAS) data. The primary objective is to achieve data compression with minimal loss, effectively reducing the size of DAS data while maintaining its usability for traffic monitoring and geophysical analysis. 
+Training an autoencoder to compress vast Distributed Acoustic Sensing (DAS) data. The goal is to achieve data compression with minimal loss.
 
 ## Setup and Dependencies
-We run the code on Google Colab for now. The following dependencies are required:
+Code has been tested in Google Colab on T4, L4, V100, and A100 instances. 
+
+### Required dependencies:
 
 1. Python (version 3.10.11)
 2. TensorFlow (version 2.12.0)
@@ -15,18 +19,15 @@ We run the code on Google Colab for now. The following dependencies are required
 4. Matplotlib (version 3.7.1)
 
 ## Dataset
-The data used in this project can be obtained by contacting one of the authors. Please refer to the the Readme file in the data folder. 
-
-## Future Enhancements
-Explore potential integration of preprocessing steps into the autoencoder's workflow, i.e., replacing some of the time-consuming preprocessing steps, such as specified noise or band-pass filtering within a CAE.
+The data used in this project can potentially be obtained by contacting tculliso-\[AT\]-stanford-dot-edu 
 
 ## Authors
 
-Hassan Almomin (almomiha@stanford.edu)
+Haipeng Li
 
-Thomas Cullison (tculliso@stanford.edu)
+Thomas Cullison 
 
-Haipeng Li (haipeng@stanford.edu)
+Hassan Almomin
 
-Department of Geophysics, Stanford University
+Department of Geophysics, Stanford University, 2023
 
