@@ -1,3 +1,10 @@
+'''
+These utilities help with preping the DAS data for training and testing
+
+Authors: Haipeng Li, Thomas Cullison, Hassan Almomin
+
+(Modified for SEP report)
+'''
 import random
 
 import numpy as np
