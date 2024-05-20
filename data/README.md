@@ -1,11 +1,7 @@
 ## Data Availability
-The DAS data used in this project can be obtained by contacting one of the following authors:
+The DAS data used in this project can be potentially be obtained by contacting:
 
-Hassan Almomin (almomiha@stanford.edu)
-
-Thomas Cullison (tculliso@stanford.edu)
-
-Haipeng Li (haipeng@stanford.edu)
+Thomas Cullison (tculliso-\[AT\]-stanford-dot-edu)
 
 Department of Geophysics
 Stanford University
